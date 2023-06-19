@@ -1,0 +1,646 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'IBMPlexSansKR-Regular' !important;
+}
+
+body {
+	font-family: 'IBMPlexSansKR-Regular' !important;
+}
+
+=======
+>>>>>>> 8bcf6e8984d0866a2ee8a4b53e40e1b5c3142dfb
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.introducetitle {
+    width: 100vw;
+    height: 162px;
+    background: url(../mainimage/senior.jpg);
+    background-position: 50% 60%;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.mainmenu {
+    display: flex;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sidebar {
+    float: left;
+    margin-right: 50px;
+    width: 200px; 
+    height: 165px;
+    top: 155px; 
+    left:10px; 
+    border:1px solid #A6AEB7;
+}
+
+.introducemenu tr {
+    border-bottom: 1px solid black;
+}
+
+.introducemenu th {
+    background-color: #ccc;
+}
+
+#deepmenu {
+    float: right;
+    width: 80%;
+    clear: right;
+}
+
+.mini-menu {
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+.highmenu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;    
+}
+
+.left-align {
+text-align: left;
+font-size: 2rem;
+}
+
+.right-align {
+    text-align: right;
+}
+
+table.eattable {
+    /* border: 1px solid black; */
+    width: 800px;
+    height: auto;
+}
+
+table tr.tablehead {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #ccc;
+}
+
+table tr.tablecontent {
+    border-bottom: 1px solid #ccc;
+}
+
+table tr td.content-title {
+    text-align: left;
+<<<<<<< HEAD
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mainmenu {
+        display: flex;
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .container-fluid {
+     max-width: 80%;   
+    }
+
+    .regi_info {
+        display: inline-block;
+        text-align: left;
+        width: 1200px;
+        border-top: 2px solid #AAA;
+        border-bottom: 2px solid #AAA;
+        margin: 10px 0;
+    }
+
+    
+
+    .regi_info th {
+        width: 250px;
+        border-right: 1px solid #DFDFDF;
+        border-bottom: 1px solid #DFDFDF;
+        padding: 20px 50px;
+        font-size: 18px;
+    }
+
+
+    .regi_info td {
+        text-align: left;
+        width: 1000px;
+       /* border-right: 1px solid black; */
+        border-bottom: 1px solid #DFDFDF;
+        padding: 10px 20px 10px 30px;
+    }
+
+    input {
+        padding-left: 20px;
+    }
+
+    
+
+    .title  {
+        margin-left: 40px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .regi_box {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .address {
+        margin-top: 10px;
+        width: 350px
+    }
+
+    main .btn {
+        border: 1px solid #DFDFDF;
+        background: #42855B;
+        color: white;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    #register {
+        background-color: #42855B;
+        font-size: 18px;
+    }
+
+    #return {
+        background-color: #AAA;
+        font-size: 18px;
+    }
+
+    main .btn:hover {
+        background: #42855B;
+    }
+
+    .star {
+        color: #A61123;
+        font-weight: bold;
+    }
+
+    #necessary {
+        /* float: right; */
+        /* margin-right: 50px; */
+        text-align: right;
+    }
+
+    main > h1 {
+        margin: 40px 0;
+    }
+
+    #tel_first {
+        width: 80px;
+    }
+
+    .tel {
+        width: 100px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .ssn {
+        width: 149px;
+    }
+
+    #alert {
+        margin-left: 10px;
+        border: none;
+    }
+
+    #title {
+        display: inline-block;
+        width: 100%;
+        border-top: 2px solid #AAA;
+        border-bottom: 2px solid #AAA;
+        background-color: #F1F1F1;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #blue_box {
+        display: inline-block;
+        width: 100%;
+        height: 54px;
+        margin-top: 20px;
+        background-color: #D9EDF7;
+        opacity: 20px;
+        color: #31708F;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .term_box {
+        display: inline-block;
+        width: 1200px;
+        margin: 20px 0;
+        border: 1px solid #AAA;
+    }
+    
+    #regi_header, #regi_second {
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        padding-top: 14px;
+        padding-left: 10px;
+        background-color: #f1f1f1;
+        font-weight: bold;
+    }
+
+    #regi_checkbox {
+        height: 20px;
+        display: left;
+        background-color: #F5F5F5;
+        font-size: 20px;
+        /* margin: 10px 0; */
+    }
+
+    #regi_second {
+        border-top: 1px solid #AAA;
+        margin-top: 10px;
+    }
+
+    .regi_term {
+        height: 200px;
+        text-align: left;
+        overflow: auto;
+        padding: 10px;
+    }
+
+
+    .checkbox {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    @font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'IBMPlexSansKR-Regular' !important;
+}
+
+body {
+	font-family: 'IBMPlexSansKR-Regular' !important;
+}
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.introducetitle {
+    width: 100vw;
+    height: 162px;
+    background: url(../mainimage/senior.jpg);
+    background-position: 50% 60%;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.mainmenu {
+    display: flex;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sidebar {
+    float: left;
+    margin-right: 50px;
+    width: 200px; 
+    height: 165px;
+    top: 155px; 
+    left:10px; 
+    border:1px solid #A6AEB7;
+}
+
+.introducemenu tr {
+    border-bottom: 1px solid black;
+}
+
+.introducemenu th {
+    background-color: #ccc;
+}
+
+#deepmenu {
+    float: right;
+    width: 80%;
+    clear: right;
+}
+
+.mini-menu {
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+.highmenu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;    
+}
+
+.left-align {
+text-align: left;
+font-size: 2rem;
+}
+
+.right-align {
+    text-align: right;
+}
+
+table.eattable {
+    /* border: 1px solid black; */
+    width: 800px;
+    height: auto;
+}
+
+table tr.tablehead {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #ccc;
+}
+
+table tr.tablecontent {
+    border-bottom: 1px solid #ccc;
+}
+
+table tr td.content-title {
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mainmenu {
+        display: flex;
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .container-fluid {
+     max-width: 80%;   
+    }
+
+    .regi_info {
+        display: inline-block;
+        text-align: left;
+        width: 1200px;
+        border-top: 2px solid #AAA;
+        border-bottom: 2px solid #AAA;
+        margin: 10px 0;
+    }
+
+    
+
+    .regi_info th {
+        width: 250px;
+        border-right: 1px solid #DFDFDF;
+        border-bottom: 1px solid #DFDFDF;
+        padding: 20px 50px;
+        font-size: 18px;
+    }
+
+
+    .regi_info td {
+        text-align: left;
+        width: 1000px;
+       /* border-right: 1px solid black; */
+        border-bottom: 1px solid #DFDFDF;
+        padding: 10px 20px 10px 30px;
+    }
+
+    input {
+        padding-left: 20px;
+    }
+
+    
+
+    .title  {
+        margin-left: 40px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .regi_box {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .address {
+        margin-top: 10px;
+        width: 350px
+    }
+
+    main .btn {
+        border: 1px solid #DFDFDF;
+        background: #42855B;
+        color: white;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    #register {
+        background-color: #42855B;
+        font-size: 18px;
+    }
+
+    #return {
+        background-color: #AAA;
+        font-size: 18px;
+    }
+
+    main .btn:hover {
+        background: #42855B;
+    }
+
+    .star {
+        color: #A61123;
+        font-weight: bold;
+    }
+
+    #necessary {
+        /* float: right; */
+        /* margin-right: 50px; */
+        text-align: right;
+    }
+
+    main > h1 {
+        margin: 40px 0;
+    }
+
+    #tel_first {
+        width: 80px;
+    }
+
+    .tel {
+        width: 100px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .ssn {
+        width: 149px;
+    }
+
+    #alert {
+        margin-left: 10px;
+        border: none;
+    }
+
+    #title {
+        display: inline-block;
+        width: 100%;
+        border-top: 2px solid #AAA;
+        border-bottom: 2px solid #AAA;
+        background-color: #F1F1F1;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #blue_box {
+        display: inline-block;
+        width: 100%;
+        height: 54px;
+        margin-top: 20px;
+        background-color: #D9EDF7;
+        opacity: 20px;
+        color: #31708F;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .term_box {
+        display: inline-block;
+        width: 1200px;
+        margin: 20px 0;
+        border: 1px solid #AAA;
+    }
+    
+    #regi_header, #regi_second {
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        padding-top: 14px;
+        padding-left: 10px;
+        background-color: #f1f1f1;
+        font-weight: bold;
+    }
+
+    #regi_checkbox {
+        height: 20px;
+        display: left;
+        background-color: #F5F5F5;
+        font-size: 20px;
+        /* margin: 10px 0; */
+    }
+
+    #regi_second {
+        border-top: 1px solid #AAA;
+        margin-top: 10px;
+    }
+
+    .regi_term {
+        height: 200px;
+        text-align: left;
+        overflow: auto;
+        padding: 10px;
+    }
+
+
+    .checkbox {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+=======
+}
+>>>>>>> 8bcf6e8984d0866a2ee8a4b53e40e1b5c3142dfb

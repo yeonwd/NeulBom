@@ -1,0 +1,51 @@
+.body{
+    background-color: #EFF7F5;
+    
+}
+.login_box{
+    background-color: #B5D7BB;
+    width: 40%;
+    margin-left: 30%;
+    padding: 60px;
+    border-radius: 8%;
+}
+.text-center{
+    margin-bottom: 50px;
+}
+.login_button{
+    margin-bottom: 10%;
+    /* width: 120%; */
+    /* margin-right: 90%; */
+}
+.title_login{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.btn-group{
+    /* text-align: center; */
+    width: 100%;
+    /* margin: 10px; */
+}
+.form-control{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+form{
+    background-color: #fff;
+    border-radius: 3%;
+    margin-top: 0px !important;
+    padding: 3%;
+}
+.btn_umm{
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-radius: 9%;
+    border: none;
+    /* height: 20px; */
+}
