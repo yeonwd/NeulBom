@@ -29,3 +29,5 @@
 - [Hee](https://github.com/HeeYunR): ERD 설계, 더미데이터, 클라이언트 기능(공지사항・식단・생활 게시판, 내 정보 관리, 결제내역 관리, 문의내역 관리)
 - [DongDongEEEE](https://github.com/DongDongEEEE): 더미데이터,  로그인기능, 클라이언트 기능(면회신청관리, 문의 게시판, 오시는 길, 인사말, 시설 소개) 
 - [yeonwd](https://github.com/yeonwd): 더미데이터, 관리자 기능(결제관리, 면회 관리, 공지사항・식단・생활・자유게시판 관리, 문의 및 입주상담 관리), 프로젝트 발표
+
+<br>
